@@ -5,19 +5,19 @@
     </td>
 
     <td style="border-left:1px solid #cccccc; padding-left:16px; vertical-align:top;">
-      <p style="margin:0; font-size:14px; font-weight:bold;">FirstName LastName</p>
-      <p style="margin:2px 0 6px 0; font-size:13px;">JobTitle</p>
+      <p style="margin:0; font-size:14px; font-weight:bold;">{FirstName} {LastName}</p>
+      <p style="margin:2px 0 6px 0; font-size:13px;">{position}</p>
 
       <p style="margin:2px 0; font-size:12px;">
         <img src="https://broadcomit.github.io/gmail-signature/images/mail.png" width="14" style="vertical-align:middle; margin-right:6px;">
-        EmailAddress@broadcom.org
+        {email@broadcom.org}
       </p>
 
       <p style="margin:2px 0; font-size:12px;">
         <img src="https://broadcomit.github.io/gmail-signature/images/phone.png" width="14" style="vertical-align:middle; margin-right:6px;">
         <a href="tel:+18769209537" style="color:#004A8F; text-decoration:none;">(876)920-9537</a>
-        <span style="margin:0 6px; color:#cccccc;">|</span>
-        <a href="tel:+18769209537" style="color:#004A8F; text-decoration:none;">(876)123-4567</a>
+        <span style="margin:0 6px; color:#cccccc;">or</span>
+        <a href="tel:{CUG}" style="color:#004A8F; text-decoration:none;">{CUG}</a>
       </p>
 
       <p style="margin:2px 0 8px 0; font-size:12px; line-height:16px;">
@@ -45,6 +45,7 @@
     </td>
   </tr>
 </table>
+
 
 
 
